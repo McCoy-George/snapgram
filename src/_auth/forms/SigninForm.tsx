@@ -54,7 +54,8 @@ const SigninForm = () => {
   return (
     <Form {...form}>
       <div className="sm:w-420 flex-center flex-col">
-        <img src="/assets/images/croped.png" alt="logo"className="w-60 h-30" />
+        <img src="/assets/images/croped.png" alt="logo" width={300}
+            height={36}/>
 
         <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">
           Log in to your account
